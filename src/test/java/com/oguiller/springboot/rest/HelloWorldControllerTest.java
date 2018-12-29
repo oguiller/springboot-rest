@@ -1,4 +1,4 @@
-package com.oguiller.springboot;
+package com.oguiller.springboot.rest;
 
 import com.oguiller.springboot.controller.HelloWorldController;
 import org.junit.Test;
