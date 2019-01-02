@@ -12,10 +12,10 @@ import org.springframework.web.servlet.HandlerExceptionResolver;
 @SpringBootApplication
 public class SpringbootApplication {
 
-	@Bean
-	HandlerExceptionResolver customExceptionResolver() {
-		return new MyExceptionHandler();
-	}
+//	@Bean
+//	HandlerExceptionResolver customExceptionResolver() {
+//		return new MyExceptionHandler();
+//	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootApplication.class, args);

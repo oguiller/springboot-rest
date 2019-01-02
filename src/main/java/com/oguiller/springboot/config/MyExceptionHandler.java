@@ -20,4 +20,5 @@ public class MyExceptionHandler implements HandlerExceptionResolver {
         model.addObject("exception", e.getMessage());
         return model;
     }
+
 }
